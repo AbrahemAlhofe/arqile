@@ -1,0 +1,22 @@
+{
+  "name": "arqile",
+  "version": "0.1.0",
+  "description": "arqile is a package to restructure and modify json-based data",
+  "main": "dist/index.js",
+  "repository": "git@github:AbrahemAlhofe/arqile.git",
+  "author": "abrahem ali alhofe",
+  "scripts" : {
+    "test" : "jest test --watch",
+    "test:issues" : "jest test/issues --watch",
+    "test:index" : "jest test/index --watch",
+    "test:error-handling" : "jest test/error-handling --watch",
+    "dev" : "tsc -p . -w"
+  },
+  "keywords" : [ "arqile", "object", "json", "restructure" ],
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "jest": "^26.6.3"
+  }
+}
